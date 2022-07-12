@@ -131,7 +131,7 @@
                 <input type="checkbox" name="policy" id="policy" class="checkbox-modal">
                 <span class="checkbox-icon">
                     <svg width="16" height="15">
-                        <use href="./images/icon-modal.svg#icon-Vector-3">
+                        <use href="./images/icon-modal.svg#icon-Vector-">
 
                         </use>
 
@@ -529,13 +529,21 @@
             </ul>
         </div>
         <div class="action">
-            <p>Подпишитесь на рассылку</p>
-            <form>
+            <p class="title">Подпишитесь на рассылку</p>
+            <form class="footer-form">
                 <label for="mail" class="form-field-modal"></label>
                 
-                <input type="email" id="mail" class="modal-form-input" name="email" required="" placeholder="E-mail">
+                <input type="email" id="mail" class="footer-form-input" name="email" required="" placeholder="E-mail">
            
-            <button type="submit">Подписаться</button>
+            <button type="submit" class="action-button">
+                <span class="form-button-text">
+                Подписаться</span>
+                <svg class="action-icon" width="24" height="24">
+                <use href="./images/icon-modal.svg#icon-icon-send">
+
+                </use>
+                </svg>
+            </button>
 </form>
         </div>
     </div>
